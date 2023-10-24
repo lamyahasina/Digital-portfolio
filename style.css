@@ -1,0 +1,130 @@
+/* codewithcurious.com */
+body {
+     background-color:cornsilk;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: black;
+    color: blue;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color:aquamarine;
+    padding: 50px;
+    text-align: center;
+    
+  }
+  
+  /* About Me Section */
+  #about {
+    
+    padding : 50px;
+    text-align : center;
+     }
+     
+
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding:20px;
+    
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 10px;
+    color: green; 
+  }
+  
+  .project a {
+    display: block;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px;
+  text-align: center;
+  color: blue;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+  color: black;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+
+#contact-form button {
+  background-color:red;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color:whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
